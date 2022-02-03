@@ -12,10 +12,6 @@ function openConnection(dbFile) {
         "CREATE TABLE IF NOT EXISTS 'ImageDirectory' (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, extension TEXT, image BLOB, created TEXT)"
       );
 
-    // database.run(
-    //     "DELETE FROM ImageDirectory"
-    // );
-
     return database;
 }
 
