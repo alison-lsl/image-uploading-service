@@ -1,0 +1,5 @@
+# This gitignore file is to ensure uploads/ folder gets pushed to the github repo, 
+# but not its contents except the gitignore file.
+
+*
+!.gitignore
